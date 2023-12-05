@@ -5,7 +5,7 @@
 }
 body{
     font-family:arial;
-    background-color: #080707;
+    background-color:#000;
 }
 
 .navbar{
@@ -16,7 +16,7 @@ body{
     width: 100%;
 }
 .navbar img{
-    margin-left: 185px;
+    margin-left: 180px;
     margin-top: 10px;
     
 
@@ -100,5 +100,91 @@ footer{
     display: flex;
     justify-content: center;
     padding:12px;
-    
+
+}
+
+
+/* contact page css*/
+
+.Contacts h1{
+    font-size: 80px;
+    color:#F8ECEC;
+    margin-top: 130px;
+    margin-right:120px;
+}
+.conta{
+    margin-top: 120px;
+  
+    margin-right: 350px;
+    margin-left: 223px;
+}
+.centerContacts{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display:flex;
+    justify-content: center;
+
+}
+
+.conta h1{
+    color: #FF0000;
+    margin-right: 470px;
+}
+
+
+
+.toflex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 132px;
+    margin-top: 12px;
+}
+.toflex input{
+  margin: 12px;
+  width: 390px;
+  height:51px;
+  padding: 10px;
+ 
+  border-radius: 10px;
+}
+
+.labelandinput label{
+    margin-left: 13px;
+    color:#F8ECEC;
+}
+.labelandinput{
+    margin-right: 23px;
+}
+textarea{
+    margin-left: 146px;
+    width:825px;
+}
+.conta button{
+    margin-left: 145px;
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    border: solid #FF0000;
+    color: #F8ECEC;
+    margin-top: 22px;
+    font-size: 22px;
+
+}
+
+.iconsContact{
+    margin-left: 145px;
+    margin-top: 22px;
+}
+
+.iconsContact img{
+    width:12px;
+    height:12px;
+
+}
+.conta footer{
+    margin-top: 33px;
 }
