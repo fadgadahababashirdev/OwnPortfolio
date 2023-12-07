@@ -5,7 +5,8 @@
 }
 body{
     font-family:arial;
-    background-color:#000;
+    background-color:#080707;
+    height:100vh;
 }
 
 .navbar{
@@ -187,4 +188,104 @@ textarea{
 }
 .conta footer{
     margin-top: 33px;
+}
+
+/*About me*/
+
+.Aboutme{
+    color:white;
+    width:70%;
+    margin-left: 180px;
+    margin-top: 90px;
+}
+
+.honeAboutMe{
+    padding-bottom: 23px;
+}
+.hthreeAboutme{
+    padding-top: 20px;
+     font-family: arial;
+     font-size: 34px;
+}
+.spanAboutme{
+    color: red;
+}
+.footer{
+    margin-top: 100px;
+}
+.iconsAboutme{
+    margin-right: 245px;
+    padding-top: 22px;
+}
+.iconsAboutme img{
+    width:15px;
+    height:15px;
+
+}
+
+
+/* Skills css */
+
+.skills{
+    margin-top:100px;
+    margin-left:180px;
+}
+
+.skills h1{
+    color: white;
+}
+
+.skills .container{
+    display:flex;margin-top: 50px;
+}
+
+.imageAndDescription{
+    display:block;
+}
+.skills h3{
+    margin-left: 100px; 
+    padding-top: 20px; 
+    color:#F86A02;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ratings{
+    display: flex;
+     justify-content: space-evenly;
+     margin-left: 105px;
+     width:50px; 
+}
+.star{
+    width:20px;
+    height:20px;
+}
+
+.symbol{
+    width:250px;
+    height:250px
+}
+
+.iconsskills{
+    text-align: center;
+    margin-left:120px;
+    padding:64px;
+    margin: 12px;
+}
+.iconsskills img{
+    width:15px;
+    height:15px;
+}
+
+.footerskills{
+    padding:40px;
+}
+.box{
+    width:700px;
+    height:300px;
+    border-radius:20px;
+    border:solid 1px white; 
+    margin-left:100px;
+    padding:70px;
+    background-color:#FFFFFF;
 }
