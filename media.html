@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        .parentcontainer{
+            display:flex;
+            justify-content: space-between;
+        }
+        .container{
+            width:150px;
+            height:150px;
+            background-color: black;
+            margin: 12px;
+        }
+
+        @media only screen and (min-width:578px) and (max-width:980px){
+            .container{
+                background-color: red;
+                width: 100;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="parentcontainer">
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+
+    </div>
+   
+    
+</body>
+</html>
