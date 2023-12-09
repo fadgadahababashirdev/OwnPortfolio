@@ -392,7 +392,14 @@ textarea{
            font-size: 40px;
       }
 
-}
+
+
+    }
+    @media only screen and (min-width:992px) and (max-width:1300px){
+     .navbar img{
+        margin-right:120px;
+     }
+    }
 
 /* end center of media queries*/
 
@@ -483,3 +490,5 @@ textarea{
         font-size:50px;
     }
 }
+
+/* end of about media query */
