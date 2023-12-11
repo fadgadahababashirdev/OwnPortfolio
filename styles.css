@@ -259,7 +259,9 @@ textarea{
 }
 
 .skills .container{
-    display:flex;margin-top: 50px;
+    display:flex;
+    margin-top: 50px;
+    margin-right: 150px;
 }
 
 .imageAndDescription{
@@ -461,10 +463,10 @@ textarea{
         padding: 20px;
     }
     .navbar ul li a{
-        font-size: 30px;
+        font-size: 15px;
     }
     .Aboutme{
-        margin-top:300px;
+        margin-top:100px;
         margin-left: 150px;
 
     }
@@ -472,12 +474,12 @@ textarea{
         font-size: 70px;
     }
     .Aboutme h3{
-        font-size:60px;
+        font-size:40px;
         
     }
     .iconsAboutme{
         display: flex;
-        margin-left:190px;
+        margin-left:390px;
         margin-top: 30px;
     }
     .iconsAboutme img{
@@ -487,8 +489,11 @@ textarea{
        height:50px;
     }
     footer{
-        font-size:50px;
+        font-size:10px;
     }
+
+
+   
 }
 
 /* end of about media query */
