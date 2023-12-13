@@ -254,6 +254,9 @@ textarea{
     margin-left:180px;
 }
 
+
+
+
 .skills h1{
     color: white;
 }
@@ -263,6 +266,8 @@ textarea{
     margin-top: 50px;
     margin-right: 150px;
 }
+
+
 
 .imageAndDescription{
     display:block;
@@ -497,3 +502,260 @@ textarea{
 }
 
 /* end of about media query */
+
+
+/* media query for skills */
+
+@media only screen and (max-width: 500px){
+    .skills {
+        margin-top: 80px;
+        margin-left: 60px;
+        padding: 11px;
+      
+    }
+    .skills .box{
+        display: none;
+    }
+  footer{
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .skills {
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+
+    .skills .container {
+        margin-right: 60px;
+    }
+
+    .skills h3 {
+        margin-left: 60px;
+    }
+
+    .ratings {
+        margin-left: 60px;
+    }
+
+    .iconsskills {
+        margin-left: 60px;
+    }
+
+    .footerskills {
+        padding: 30px;
+    }
+
+    .box {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    .skills {
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    .skills .container {
+        margin-right: 80px;
+    }
+
+    .skills h3 {
+        margin-left: 80px;
+    }
+
+    .ratings {
+        margin-left: 80px;
+    }
+
+    .iconsskills {
+        margin-left: 80px;
+    }
+
+    .footerskills {
+        padding: 40px;
+    }
+
+    .box {
+        margin-left: 80px;
+    }
+}
+
+/* end of media skills query */
+
+/* Contact page media query */
+
+@media only screen and (max-width: 767px) {
+    .conta {
+        margin-top: 50px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .conta h1 {
+        margin-right: 30px;
+    }
+
+    .toflex {
+        margin-left: 20px;
+        margin-top: 12px;
+    }
+
+    .toflex input {
+        margin: 12px;
+        width: 100%;
+        height: 51px;
+        padding: 10px;
+
+        border-radius: 10px;
+    }
+
+    .labelandinput {
+        margin-right: 0;
+    }
+
+    textarea {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .conta button {
+        margin-left: 20px;
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 22px;
+        font-size: 18px;
+    }
+
+    .iconsContact {
+        margin-left: 20px;
+        margin-top: 22px;
+    }
+
+    .iconsContact img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .conta footer {
+        margin-top: 33px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .conta {
+        margin-top: 180px;
+        margin-right: 60px;
+        margin-left: 30px;
+    }
+    .conta .labelandinput{
+        margin-right: 5px;
+       
+        
+    }
+
+    .conta footer {
+        margin-top: 103px;
+        text-align: center;
+    }
+    .conta footer {
+        font-size: 25px;
+    }
+    .iconsContact img{
+        width: 20px;
+        height:20px;
+        margin-left:60px;
+        margin-top:50px;
+    }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .conta {
+        margin-top: 80px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    .toflex {
+        margin-left: 40px;
+        margin-top: 12px;
+    }
+
+    .toflex input {
+        width: 390px;
+    }
+
+    textarea {
+        width: 825px;
+    }
+
+    .conta button {
+        margin-left: 40px;
+        width: 200px;
+        font-size: 22px;
+    }
+
+    .iconsContact {
+        margin-left: 40px;
+        margin-top: 22px;
+    }
+
+    .conta footer {
+        margin-top: 33px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    .conta {
+        margin-top: 200px;
+        margin-right: 190px;
+        margin-left: 80px;
+
+    }
+
+    .toflex {
+        margin-left: 132px;
+        margin-top: 12px;
+    }
+
+    .toflex input {
+        width: 390px;
+    }
+
+    textarea {
+        width: 825px;
+    }
+
+    .conta button {
+        margin-left: 145px;
+        width: 200px;
+        font-size: 22px;
+    }
+
+    .iconsContact {
+        margin-left: 145px;
+        margin-top: 22px;
+        
+    }
+    .iconsContact img{
+        width: 50px;
+        height:50px;
+        margin-left:150px;
+        margin-top:50px;
+    }
+    .conta footer {
+        margin-top: 103px;
+        text-align: center;
+    }
+    .conta footer {
+        font-size: 45px;
+    }
+}
+
+/* End of Contact page media query */
